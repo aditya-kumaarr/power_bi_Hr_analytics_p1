@@ -20,11 +20,17 @@ The objective of this HR Analytics dashboard is to analyze employee attrition an
 ##Dashboard Interaction <a href="https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/dashboard.png">View Dashboard</a>
 
 ## Process
-- Verify data for any missing values and anomalies, and sort out the same.
-- Made sure data is consistent and clean with respect to data type, data format and values used.
-- Created pivot tables according to the questions asked.
-- Merge all pivot tables into one dashboard and apply slicer to make dynamic.
-
+- 1. Verified data for missing values and anomalies using Power BI’s Power Query Editor and handled inconsistencies.
+- 2. Ensured data consistency by formatting columns appropriately and standardizing data types.
+- 3. Created Attrition_Count column using DAX in the data modeling section:
+Assigned a value of 1 for each row where Attrition = "Yes" and 0 otherwise.
+![Screenshot (495)](https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/attrition_count.png)
+- 4. Created Attrition_Rate measure using DAX in the data modeling section:
+Calculated as the total Attrition_Count divided by the total EmployeeCount.
+![Screenshot (495)](https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/attrition_rate.png)
+- 5. Designed interactive visuals (cards, bar charts, pie charts) to answer key business questions.
+- 6. Integrated all visuals into a single dashboard and used slicers to make the dashboard dynamic and user-friendly.
+  
 ## Dashboard
 
 ![Screenshot (495)](https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/dashboard.png)
