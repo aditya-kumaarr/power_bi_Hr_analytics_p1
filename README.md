@@ -6,30 +6,30 @@ The objective of this HR Analytics dashboard is to analyze employee attrition an
 - <a href="https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/HR_Analytics.csv">Dataset</a>
 
 ## Questions (KPIs)
-- 1.	What is the overall employee attrition rate?
-- 2.	What is the average age of employees?
-- 3.	What is the average monthly salary of employees?
-- 4.	What is the average years of experience (tenure) in the organization?
-- 5.	Which job roles have the highest attrition rates?
-- 6.	What is the gender-wise distribution of attrition?
-- 7.	Which education field has the most attrition cases?
-- 8.	How does attrition vary across different age groups?
-- 9.	Which marital status group has the highest attrition?
-- 10.	What are the attrition patterns across various salary slabs?
+- What is the overall employee attrition rate?
+- What is the average age of employees?
+- What is the average monthly salary of employees?
+- What is the average years of experience (tenure) in the organization?
+- Which job roles have the highest attrition rates?
+- What is the gender-wise distribution of attrition?
+- Which education field has the most attrition cases?
+- How does attrition vary across different age groups?
+- Which marital status group has the highest attrition?
+- What are the attrition patterns across various salary slabs?
 
 ##Dashboard Interaction <a href="https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/dashboard.png">View Dashboard</a>
 
 ## Process
-- 1. Verified data for missing values and anomalies using Power BI’s Power Query Editor and handled inconsistencies.
-- 2. Ensured data consistency by formatting columns appropriately and standardizing data types.
-- 3. Created Attrition_Count column using DAX in the data modeling section:
+- Verified data for missing values and anomalies using Power BI’s Power Query Editor and handled inconsistencies.
+- Ensured data consistency by formatting columns appropriately and standardizing data types.
+- Created Attrition_Count column using DAX in the data modeling section:
 Assigned a value of 1 for each row where Attrition = "Yes" and 0 otherwise.
 ![Screenshot (495)](https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/attrition_count.png)
-- 4. Created Attrition_Rate measure using DAX in the data modeling section:
+- Created Attrition_Rate measure using DAX in the data modeling section:
 Calculated as the total Attrition_Count divided by the total EmployeeCount.
 ![Screenshot (495)](https://github.com/aditya-kumaarr/power_bi_Hr_analytics_p1/blob/main/assets/attrition_rate.png)
-- 5. Designed interactive visuals (cards, bar charts, pie charts) to answer key business questions.
-- 6. Integrated all visuals into a single dashboard and used slicers to make the dashboard dynamic and user-friendly.
+- Designed interactive visuals (cards, bar charts, pie charts) to answer key business questions.
+- Integrated all visuals into a single dashboard and used slicers to make the dashboard dynamic and user-friendly.
   
 ## Dashboard
 
@@ -46,5 +46,7 @@ Calculated as the total Attrition_Count divided by the total EmployeeCount.
 -	Departmental Breakdown: The Research & Development department had the highest number of resignations. This could warrant deeper analysis into project loads, management style, or development opportunities.
 
 ## Final Conclusion:
-To improve the sales of Vrinda Store, a strategic marketing plan focused on women aged 30-49 years residing in Maharashtra, Karnataka, and Uttar Pradesh should be implemented. This demographic represents a key consumer segment, as they often make significant household and lifestyle purchases. The approach should include targeted digital marketing campaigns and personalized promotions to capture their attention.
+- This HR Analytics Dashboard project was designed to help organizations understand employee attrition trends through data-driven insights. Using Power BI, we analyzed key HR metrics such as Attrition Rate, Department-wise Attrition, Job Role Impact, and Demographic Influence on attrition.
+- The dashboard simplifies complex HR data into clear and actionable visuals, empowering decision-makers to identify areas of concern and develop strategies to improve employee retention. The ability to slice data across Age, Department, and Job Role makes it a dynamic tool for in-depth HR analysis.
+- This project not only demonstrates strong skills in Power BI and data storytelling, but also showcases the ability to translate raw data into business insights, which is essential for any data analytics role.
 
