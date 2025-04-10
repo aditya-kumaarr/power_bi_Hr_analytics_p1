@@ -50,3 +50,7 @@ Calculated as the total Attrition_Count divided by the total EmployeeCount.
 - The dashboard simplifies complex HR data into clear and actionable visuals, empowering decision-makers to identify areas of concern and develop strategies to improve employee retention. The ability to slice data across Age, Department, and Job Role makes it a dynamic tool for in-depth HR analysis.
 - This project not only demonstrates strong skills in Power BI and data storytelling, but also showcases the ability to translate raw data into business insights, which is essential for any data analytics role.
 
+## If you'd like to connect or collaborate on data projects, feel free to reach out on: 
+• **LinkedIn**: 
+• **Email**: adityaakumaarr@gmail.com
+
