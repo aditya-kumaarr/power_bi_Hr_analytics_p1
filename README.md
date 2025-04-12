@@ -45,7 +45,7 @@ Calculated as the total Attrition_Count divided by the total EmployeeCount.
 -	Distance from Home: Employees living closer to the workplace (0–10 km) surprisingly had higher attrition counts. This could indicate issues unrelated to commute, like culture fit or management concerns.
 -	Departmental Breakdown: The Research & Development department had the highest number of resignations. This could warrant deeper analysis into project loads, management style, or development opportunities.
 
-## Final Conclusion:
+## Final Conclusion
 - This HR Analytics Dashboard project was designed to help organizations understand employee attrition trends through data-driven insights. Using Power BI, we analyzed key HR metrics such as Attrition Rate, Department-wise Attrition, Job Role Impact, and Demographic Influence on attrition.
 - The dashboard simplifies complex HR data into clear and actionable visuals, empowering decision-makers to identify areas of concern and develop strategies to improve employee retention. The ability to slice data across Age, Department, and Job Role makes it a dynamic tool for in-depth HR analysis.
 - This project not only demonstrates strong skills in Power BI and data storytelling, but also showcases the ability to translate raw data into business insights, which is essential for any data analytics role.
