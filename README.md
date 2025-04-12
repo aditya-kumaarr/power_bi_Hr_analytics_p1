@@ -51,6 +51,6 @@ Calculated as the total Attrition_Count divided by the total EmployeeCount.
 - This project not only demonstrates strong skills in Power BI and data storytelling, but also showcases the ability to translate raw data into business insights, which is essential for any data analytics role.
 
 ## If you'd like to connect or collaborate on data projects, feel free to reach out on: 
-• **LinkedIn**: 
+• **LinkedIn**: https://www.linkedin.com/in/aditya-kumar-4a175635b/
 • **Email**: adityaakumaarr@gmail.com
 
